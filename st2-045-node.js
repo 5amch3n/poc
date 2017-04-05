@@ -1,6 +1,6 @@
 #! /usr/local/bin/node
 if(process.argv.length < 4) {
-	console.log('Usage: ./st2-045-node.js http://wusms.worldunion.com.cn:8082/toolbook/admin/login.action whoami');
+	console.log('Usage: ./st2-045-node.js http://ip:port/foo.action whoami');
 	process.exit(0);
 } 
 console.log('Executing remote cmd ' + process.argv[3] + ' on ' + process.argv[2] + ' ...');
