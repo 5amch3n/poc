@@ -1,4 +1,5 @@
 #! /usr/local/bin/node
+// a node version for this poc in python: https://packetstormsecurity.com/files/141494/Struts2-S2-0450Remote-Command-Execution.html
 if(process.argv.length < 4) {
 	console.log('Usage: ./st2-045-node.js http://ip:port/foo.action whoami');
 	process.exit(0);
